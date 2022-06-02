@@ -1,0 +1,51 @@
+# gedit: (is like doc)
+----------------------
+gedit (open doc and enter data and save like notepad)
+
+# nano
+---------
+
+nano file1.txt
+Ctrl+x --> to exit
+ctrl+0 ---> to save
+ctrl+g ---> get help
+ctrl+y ---> move to nxt page
+ctrl+v ---> to prev page
+ctrl+w ---> to search
+
+# vi:
+-----
+
+yum install vim
+
+vim file3.txt
+i = insert data
+esc = cmd mode
+dd = delete line
+A = cruser move to end of the line
+a = enter the data on next to cruser
+o = to insert new line
+^ = cruser move to begin
+x = cut
+3dw = delete 3 words
+3dd = delete 3 lines
+yw = copy
+3ym = copy 3 words
+3yy = copy 3 lines
+u = undo
+p = paste
+:set number = to set numbers
+:7 = to show thw cruser on 7th line
+/red = to searh red word
+:%s/red/RED/ = replase 1st word matching in each line
+:%s/red/RED = replace
+
+:x or :w = exit
+:q! = quit without saving
+:wq! = save and quit
+
+
+
+
+
+

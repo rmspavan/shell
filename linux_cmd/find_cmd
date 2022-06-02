@@ -1,0 +1,13 @@
+# to fine the word in file:
+------------------------------
+find . -type f -iname "*.txt" -exec grep 'March' {} \;
+
+# to copy all the text files
+----------------------------
+find . -type f -iname "*.txt" -exec cp {} /root/dir \;
+
+# delete all the txt files in dir
+---------------------------------
+find . -iname "*.txt" -exec rm -rf {} \;
+
+

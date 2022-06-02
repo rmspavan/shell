@@ -1,0 +1,32 @@
+# hardlink
+-----------
+ln file.txt f1
+echo hello world! > f1
+cat f1
+cat file.txt
+
+echo redhat and centos >> file.txt
+cat f1
+
+ls -lis
+
+
+# softlink
+-----------
+ln -s file.txt f2
+ls -li
+
+echo hello world1! > f1
+cat f1
+cat file.txt
+
+rm file.txt
+ls -li
+
+cat f1
+
+
+
+
+
+
